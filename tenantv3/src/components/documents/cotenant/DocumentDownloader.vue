@@ -18,7 +18,7 @@
             >
               <option v-if="!document.key" selected disabled></option>
               <option v-for="d in documentsDefinitions" :value="d.key" :key="d.key">
-                {{ t(translationKeyPrefix + d.key) }}
+                {{ t(d.key) }}
               </option>
             </select>
           </div>

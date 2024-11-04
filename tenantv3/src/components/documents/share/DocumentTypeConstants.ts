@@ -78,8 +78,8 @@ export const DocumentTypeConstants = {
       maxFileCount: 10
     },
     {
-      key: 'guest-company',
-      value: 'GUEST_ORGANISM',
+      key: 'guest-parents',
+      value: 'GUEST_PARENTS',
       maxFileCount: 10
     },
     {
@@ -113,11 +113,6 @@ export const DocumentTypeConstants = {
     {
       key: 'guest',
       value: 'GUEST',
-      maxFileCount: 10
-    },
-    {
-      key: 'guest-company',
-      value: 'GUEST_ORGANISM',
       maxFileCount: 10
     },
     {
